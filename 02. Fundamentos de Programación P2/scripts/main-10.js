@@ -15,9 +15,10 @@
 
 // let totalHoras = horasBisiesto + horasComun;
 
-let edad = 34;
-let dias = 365;
-let horas = 24;
-let totalHoras = edad * dias * horas;
+let edad2 = parseInt(document.querySelector('.edad').innerHTML);
 
-console.log(`Mi edad es ${edad} y he vivido ${totalHoras} horas.`);
+let dias2 = 365;
+let horas2 = 24;
+let totalHoras2 = edad2 * dias2 * horas2;
+
+console.log(`Mi edad es ${edad2} y he vivido ${totalHoras2} horas.`);

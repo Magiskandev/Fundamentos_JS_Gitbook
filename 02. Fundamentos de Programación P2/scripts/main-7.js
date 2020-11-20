@@ -1,7 +1,5 @@
 'use strict';
 
-document.querySelector('ul').innerHTML = `
-<li>1</li>
-<li>2</li>
-<li>3</li>
-`;
+const nombre2 = 'Biviana';
+
+document.querySelector('.name-2').innerHTML = `${nombre2}`;
