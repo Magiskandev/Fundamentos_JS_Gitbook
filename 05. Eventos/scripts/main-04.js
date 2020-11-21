@@ -1,20 +1,9 @@
 'use strict';
 
-function calculateBoxModel(type, widthContent, padding, border) {
-    let box;
+const buttonElement = document.querySelector('.button-2');
 
-    if (type) {
-        box = widthContent - (padding * 2) - (border * 2);
-    }
-    
-    else {
-        box = widthContent + (padding * 2) + (border * 2);
-    }
-
-    return box;
+function handleButtonClick(event) {
+  console.log(event);
 }
 
-
-
-console.log(calculateBoxModel(1, 100, 10, 1));
-console.log(calculateBoxModel(0, 100, 10, 1));
+buttonElement.addEventListener('click', handleButtonClick);

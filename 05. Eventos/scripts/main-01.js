@@ -1,12 +1,10 @@
 'use strict';
 
-function multiplication(op1, op2) {
-    let result = op1 * op2;
+// elemento de HTML
+const button = document.querySelector('.boton');
 
-    return result;
-}
+// handler
+const showAlert = () => document.querySelector('.yo').innerHTML = `Mi primer click, ¡ole yo y la mujer que me parió!`;
 
-console.log(multiplication(2, 43));
-console.log(multiplication(22, 4));
-console.log(multiplication(5, 6));
-console.log(multiplication(13, 943));
+// listener sobre el elemento, con tipo de evento y handler
+button.addEventListener('click', showAlert);

@@ -1,10 +1,13 @@
 'use strict';
 
-function media(num1, num2, num3, num4) {
-    let media = (num1 + num2 + num3 + num4) / 4;
-    
-    return media;
+// elemento de HTML
+const button2 = document.querySelector('.boton-2');
+
+// handler
+const showConsole = () => {
+    let imprimir = document.querySelector('.entrada').value;
+    console.log(imprimir);
 }
 
-console.log(media(2, 4, 5, 9));
-console.log(media(1, 2, 3, 4));
+// listener sobre el elemento, con tipo de evento y handler
+button2.addEventListener('click', showConsole);

@@ -1,9 +1,10 @@
 'use strict';
 
-function ticketIva(precio) {
-    let res = `El precio sin IVA es: $ ${precio}, el IVA es: 2.1 y el total es: $ ${precio * 1.21}.`;
-    return res;
-}
+// elemento de HTML
+const parag = document.querySelector('.parag-1');
 
-console.log(ticketIva(10));
-console.log(ticketIva(100));
+// handler
+const showParag = () => document.querySelector('.parag-2').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt ut cumque corporis, illum molestiae temporibus rerum enim, voluptate quis, explicabo quibusdam fugiat pariatur aut. Alias quaerat et non id.';
+
+// listener sobre el elemento, con tipo de evento y handler
+parag.addEventListener('mouseover', showParag);
