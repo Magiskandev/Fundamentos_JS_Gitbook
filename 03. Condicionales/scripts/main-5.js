@@ -6,7 +6,7 @@ const parag = document.querySelector('.parag');
 
 if (container.classList.contains('success')) {
     title.innerHTML = `CORRECTO`;
-    parag.innerHTML = `Los datos son correcto.`;
+    parag.innerHTML = `Los datos son correctos.`;
 }
 
 else if(container.classList.contains('error')) {
