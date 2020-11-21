@@ -2,7 +2,7 @@
 .avatar {
     width: 300px;
     height: 300px;
-    border: greenyellow;
+    border: 5px solid greenyellow;
     border-radius: 10px;
 }
 
