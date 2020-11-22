@@ -1,4 +1,4 @@
-/* Ejercicio 8 */
+/* Ejercicio 1 y 2 */
 .boton, .boton-2 {
     border: 5px solid greenyellow;
     background-color: green;
@@ -14,4 +14,40 @@
     border: 5px solid green;
     background-color: greenyellow;
     color: green;
+}
+
+/* Ejercicio 5 */
+body {
+    margin: 0;
+    font-family: Arial, san-serif;
+  }
+  
+  .teachers {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .teacher {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+  }
+  
+  .teacher__img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .teacher--selected {
+    background-color: antiquewhite;
+    border: 2px solid red;
+  }
+
+/* Ejercicio 6 */
+.red {
+  background-color: red;
+}
+
+.violet {
+  background-color: violet;
 }
