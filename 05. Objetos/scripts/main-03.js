@@ -6,7 +6,7 @@ const geekGirl3  = {
     nombre: 'María',
     edad: 34,
     profesion: 'periodista',
-    showBio: function bio() {
+    showBio() {
         alert(`Mi nombre es ${this.nombre}, tengo ${this.edad} años y soy ${this.profesion}.`);
     }
 }
@@ -17,7 +17,7 @@ const geekGirl4  = {
     nombre: 'Rocío',
     edad: 25,
     profesion: 'actriz',
-    showBio: function bio() {
+    showBio() {
         alert(`Mi nombre es ${this.nombre}, tengo ${this.edad} años y soy ${this.profesion}.`);
     }
 }
