@@ -8,5 +8,5 @@ const geekGirl  = {
     runAMarathon: (distance) => console.log(`Estoy corriendo un maraton de ${distance} kilometros.`)
 }
 
-console.log(geekGirl.run());
-console.log(geekGirl.runAMarathon(50));
+geekGirl.run();
+geekGirl.runAMarathon(50);

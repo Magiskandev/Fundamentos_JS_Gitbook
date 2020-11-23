@@ -11,7 +11,7 @@ const geekGirl3  = {
     }
 }
 
-console.log(geekGirl3.showBio());
+geekGirl3.showBio();
 
 const geekGirl4  = {
     nombre: 'Rocío',
@@ -22,4 +22,4 @@ const geekGirl4  = {
     }
 }
 
-console.log(geekGirl4.showBio());
+geekGirl4.showBio();

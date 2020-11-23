@@ -11,7 +11,7 @@ const contador = {
             this.val_act = this.val_act + 1;
         }
 
-        // return this.val_act;
+        return this.val_act;
     },
 
     disminuir() {
@@ -19,31 +19,48 @@ const contador = {
             this. val_act = this.val_act - 1;
         }
 
-        // return this.val_act;
+        return this.val_act;
     },
 
     restablecer() {
         this.val_act = this.val_ini;
         
-        // return this.val_act;
+        return this.val_act;
     }
 }
 
 console.log(contador.aumentar());
-console.log(contador.val_act);
+// console.log(contador.val_act);
 console.log(contador.aumentar());
-console.log(contador.val_act);
+// console.log(contador.val_act);
 console.log(contador.disminuir());
-console.log(contador.val_act);
+// console.log(contador.val_act);
 console.log(contador.aumentar());
-console.log(contador.val_act);
+// console.log(contador.val_act);
 console.log(contador.disminuir());
-console.log(contador.val_act);
+// console.log(contador.val_act);
 console.log(contador.aumentar());
-console.log(contador.val_act);
+// console.log(contador.val_act);
 console.log(contador.aumentar());
-console.log(contador.val_act);
+// console.log(contador.val_act);
 console.log(contador.aumentar());
-console.log(contador.val_act);
+// console.log(contador.val_act);
 console.log(contador.restablecer());
-console.log(contador.val_act);
+// console.log(contador.val_act);
+
+// contador.aumentar();
+// // console.log(contador.val_act);
+// contador.aumentar();
+// // console.log(contador.val_act);
+// contador.disminuir();
+// // console.log(contador.val_act);
+// contador.aumentar();
+// // console.log(contador.val_act);
+// contador.disminuir();
+// // console.log(contador.val_act);
+// contador.aumentar();
+// contador.aumentar();
+// contador.aumentar();
+// // console.log(contador.val_act);
+// contador.restablecer();
+// // console.log(contador.val_act);
